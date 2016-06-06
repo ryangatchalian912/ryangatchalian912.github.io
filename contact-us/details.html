@@ -36,7 +36,7 @@
             min-width: 10em;
         }
 
-        textarea
+        .row textarea
         { 
             width: 50%; 
             padding: 0; 
@@ -62,10 +62,33 @@
         {
             background: #e8e8e8;
         }
+
+        nav ul li.right-li
+        {
+            float: right;
+        }
     </style>
 </head>
 <body>
     <div class="container-fluid">
+        <div class="row">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="manage.html" class="selected">Manage Contacts</a>
+                    </li>
+                    <li>
+                        <a href="add-contact.html">Add New Contact</a>
+                    </li>
+                    <li>
+                        <a href="calendar.html">Calendar</a>
+                    </li>
+                    <li class="right-li">
+                        <a href="admin.html">Manage Users</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
         <div class="row">
             <div class="col-md-6 col-sm-6 col-xs-12 contact-info">
                 <div class="container-fluid">
