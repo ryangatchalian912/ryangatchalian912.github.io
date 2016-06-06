@@ -1,0 +1,46 @@
+body
+{
+    padding: 2em;
+}
+
+td input[type="text"]
+{
+    width: 75%;
+}
+
+td label
+{
+    min-width: 10em;
+}
+
+.row textarea
+{ 
+    width: 100%; 
+    padding: 0; 
+    margin: 0; 
+}
+
+.row h3
+{
+    padding: 0.5em;
+    background: #bfbfbf;
+    text-transform: uppercase;
+    font-size: 1.2em;
+}
+
+.row th a
+{
+    padding: 0.5em;
+    text-transform: uppercase;
+    font-size: 0.85em;
+}
+
+.contact-info
+{
+    background: #e8e8e8;
+}
+
+nav ul li.right-li
+{
+    float: right;
+}
